@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerMove : MonoBehaviour
 {
     Transform _tr;
